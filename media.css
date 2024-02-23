@@ -3,12 +3,16 @@
     body {
         background-image: url(img/mroxo.png);
         background-size: 100px;
-        background-position: 10px 20px;
+        background-position: center 0;
         background-repeat: no-repeat;
     }
 
     .header {
         flex-direction: column;
+    }
+
+    .header h1 {
+        font-weight: 500;
     }
 
     img {
@@ -20,6 +24,9 @@
     }
 
     .footer {
-        margin-top: 17px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
