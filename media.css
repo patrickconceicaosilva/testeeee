@@ -1,0 +1,25 @@
+@media screen and (max-width: 615px) {
+
+    body {
+        background-image: url(img/mroxo.png);
+        background-size: 100px;
+        background-position: 10px 20px;
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    img {
+        display: none;
+    }
+
+    .main {
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 17px;
+    }
+}
