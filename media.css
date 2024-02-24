@@ -17,6 +17,12 @@
 
     img {
         display: none;
+        width: 400px;
+    }
+
+    ul {
+        min-width: 400px;
+        text-align: center;
     }
 
     .main {
@@ -24,9 +30,6 @@
     }
 
     .footer {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        display: none;
     }
 }
